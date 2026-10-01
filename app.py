@@ -78,28 +78,44 @@ def load_dataset(uploaded_file) -> pd.DataFrame:
         return pd.DataFrame()
 
 
-def load_sample_dataset(sample_choice: str) -> pd.DataFrame:
+def load_sample_dataset(sample_choice: str) -> tuple[pd.DataFrame, str]:
     """
     Loads built-in sample datasets from the sample_data directory for instant demo.
+    Supports interactive multi-sheet selection when the Excel workbook is chosen.
     """
     sample_dir = Path(__file__).parent / "sample_data"
+
     if sample_choice == "Dirty E-Commerce Data (CSV)":
         path = sample_dir / "dirty_ecommerce_data.csv"
-        return pd.read_csv(path) if path.exists() else pd.DataFrame()
-    elif sample_choice == "Clean E-Commerce Sample (Excel Sheet)":
+        df = pd.read_csv(path) if path.exists() else pd.DataFrame()
+        return df, sample_choice
+
+    elif sample_choice == "E-Commerce Workbook (Multi-Sheet Excel)":
         path = sample_dir / "dirty_ecommerce_data.xlsx"
-        return pd.read_excel(path, sheet_name="Orders_Clean_Sample") if path.exists() else pd.DataFrame()
+        if path.exists():
+            excel_file = pd.ExcelFile(path)
+            selected_sheet = st.sidebar.selectbox(
+                "Select Excel Sheet to Profile:",
+                options=excel_file.sheet_names,
+                index=0
+            )
+            df = pd.read_excel(path, sheet_name=selected_sheet)
+            return df, f"{sample_choice} - [{selected_sheet}]"
+        return pd.DataFrame(), sample_choice
+
     elif sample_choice == "Dirty E-Commerce Data (Parquet)":
         path = sample_dir / "dirty_ecommerce_data.parquet"
-        return pd.read_parquet(path) if path.exists() else pd.DataFrame()
-    return pd.DataFrame()
+        df = pd.read_parquet(path) if path.exists() else pd.DataFrame()
+        return df, sample_choice
+
+    return pd.DataFrame(), sample_choice
 
 
 # 3. Main Application Layout & Sidebar Controls
 def main():
     st.title("📊 Automated Data Quality & Profiling Scorecard")
     st.markdown(
-        "Evaluate any dataset across **20 industry standard Data Quality KPIs** "
+        "Evaluate any dataset across **20 industry-standard Data Quality KPIs** "
         "spanning Completeness, Uniqueness, Validity, Statistical Distribution, and Governance."
     )
 
@@ -129,12 +145,11 @@ def main():
             "Select Demo Dataset:",
             options=[
                 "Dirty E-Commerce Data (CSV)",
-                "Clean E-Commerce Sample (Excel Sheet)",
+                "E-Commerce Workbook (Multi-Sheet Excel)",
                 "Dirty E-Commerce Data (Parquet)"
             ]
         )
-        df = load_sample_dataset(sample_choice)
-        source_label = sample_choice
+        df, source_label = load_sample_dataset(sample_choice)
         if df.empty:
             st.warning("Sample data files not found. Please run `sample_data/generate_samples.py` first.")
             return
