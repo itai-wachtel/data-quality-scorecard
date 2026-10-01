@@ -1,0 +1,105 @@
+customer_id,full_name,email,age,order_amount,order_date,delivery_date,status,credit_card_last4
+CUST-1000,Maya Katz,user0@example.com,45.0,258.68,2026-06-01,2026-06-05,Completed,6177
+CUST-1001,Yossi Ben,user1@example.com,24.0,164.42,2026-06-02,2026-06-06,Pending,9932
+CUST-1002,Itai M,user2@example.com,26.0,156.72,2026-06-03,2026-06-07,Cancelled,9308
+CUST-1003,Yossi Ben,user3@example.com,25.0,37.71,2026-06-04,2026-06-08,Completed,6949
+CUST-1004,Yossi Ben,user4@example.com,29.0,312.59,2026-06-05,2026-06-09,Completed,3838
+CUST-1005,Noa Levi,user5@example.com,,261.29,2026-06-06,2026-06-10,Completed,2150
+CUST-1006,Itai M,user6@example.com,,44.71,2026-06-07,2026-06-11,Completed,8560
+CUST-1007,Itai M,user7@example.com,,153.75,2026-06-08,2026-06-12,Pending,2931
+CUST-1008,Itai M,user8@example.com,,455.97,2026-06-09,2026-06-13,Completed,2664
+CUST-1009,Yossi Ben,user9@example.com,,134.99,2026-06-10,2026-06-14,Cancelled,2081
+CUST-1010,Maya Katz,user10@example.com,,89.55,2026-06-11,2026-06-15,Cancelled,1512
+CUST-1011,Itai M,user11@example.com,,254.94,2026-06-12,2026-06-16,Completed,8805
+CUST-1012,Yossi Ben,user12@example.com,,493.11,2026-06-13,2026-06-17,Cancelled,6237
+CUST-1013,Noa Levi,user13@example.com,57.0,136.19,2026-06-14,2026-06-18,Completed,1559
+CUST-1014,Maya Katz,user14@example.com,39.0,342.63,2026-06-15,2026-06-19,Completed,4672
+CUST-1015,Noa Levi,,44.0,385.58,2026-06-16,2026-06-20,Cancelled,8404
+CUST-1016,Maya Katz,,52.0,134.07,2026-06-17,2026-06-21,Completed,4343
+CUST-1017,Yossi Ben,,18.0,369.54,2026-06-18,2026-06-22,Cancelled,5070
+CUST-1018,Dan Cohen,,52.0,196.54,2026-06-19,2026-06-23,Pending,1580
+CUST-1019,Maya Katz,,54.0,323.51,2026-06-20,2026-06-24,Completed,8004
+CUST-1020,Noa Levi,,64.0,324.09,2026-06-21,2026-06-25,Pending,9130
+CUST-1021,Yossi Ben,user21@example.com,31.0,277.17,2026-06-22,2026-06-26,Cancelled,4147
+CUST-1022,Maya Katz,user22@example.com,20.0,63.34,2026-06-23,2026-06-27,Pending,5249
+CUST-1023,Dan Cohen,user23@example.com,18.0,420.95,2026-06-24,2026-06-28,Pending,2679
+CUST-1024,Dan Cohen,user24@example.com,22.0,173.97,2026-06-25,2026-06-29,Cancelled,4506
+CUST-1025,   ,user25@example.com,43.0,109.53,2026-06-26,2026-06-30,Pending,8253
+CUST-1026,   ,user26@example.com,31.0,39.57,2026-06-27,2026-07-01,Pending,3744
+CUST-1027,   ,user27@example.com,56.0,303.63,2026-06-28,2026-07-02,Cancelled,6188
+CUST-1028,   ,user28@example.com,44.0,345.23,2026-06-29,2026-07-03,Pending,3141
+CUST-1029,Maya Katz,user29@example.com,26.0,27.96,2026-06-30,2026-07-04,Cancelled,7617
+CUST-1030,Itai M,user30@example.com,32.0,265.8,2026-07-01,2026-07-05,,3479
+CUST-1031,Maya Katz,user31@example.com,32.0,128.72,2026-07-02,2026-07-06,Cancelled,7484
+CUST-1032,Maya Katz,user32@example.com,43.0,329.68,2026-07-03,2026-07-07,Cancelled,8421
+CUST-1033,Dan Cohen,user33@example.com,59.0,103.7,2026-07-04,2026-07-08,Pending,5452
+CUST-1034,Itai M,user34@example.com,30.0,351.65,2026-07-05,2026-07-09,Pending,6881
+CUST-1035,  Dan Cohen ,user35@example.com,68.0,205.63,2026-07-06,2026-07-10,Pending,7665
+CUST-1036,  Dan Cohen ,user36@example.com,49.0,469.63,2026-07-07,2026-07-11,Completed,3849
+CUST-1037,  Dan Cohen ,user37@example.com,56.0,86.01,2026-07-08,2026-07-12,Completed,8390
+CUST-1038,  Dan Cohen ,user38@example.com,66.0,183.71,2026-07-09,2026-07-13,Completed,7905
+CUST-1039,  Dan Cohen ,user39@example.com,69.0,74.47,2026-07-10,2026-07-14,Cancelled,3489
+CUST-1040,  Dan Cohen ,user40@example.com,49.0,463.85,2026-07-11,2026-07-15,Pending,5611
+CUST-1041,  Dan Cohen ,user41@example.com,21.0,441.12,2026-07-12,2026-07-16,Cancelled,3839
+CUST-1042,  Dan Cohen ,user42@example.com,47.0,143.81,2026-07-13,2026-07-17,Completed,9527
+CUST-1043,Noa Levi,user43@example.com,54.0,336.79,2026-07-14,2026-07-18,Pending,6878
+CUST-1044,Noa Levi,user44@example.com,40.0,412.27,2026-07-15,2026-07-19,Cancelled,7303
+CUST-1045,Dan Cohen,user45@example.com,56.0,286.5,2026-07-16,2026-07-20,Completed  ,1851
+CUST-1046,Noa Levi,user46@example.com,62.0,274.23,2026-07-17,2026-07-21,Completed  ,2687
+CUST-1047,Yossi Ben,user47@example.com,32.0,136.09,2026-07-18,2026-07-22,Completed  ,7833
+CUST-1048,Noa Levi,user48@example.com,60.0,64.69,2026-07-19,2026-07-23,Completed  ,3427
+CUST-1049,Maya Katz,user49@example.com,46.0,450.66,2026-07-20,2026-07-24,Completed,5000
+CUST-1000,Maya Katz,user50@example.com,53.0,452.2,2026-07-21,2026-07-25,Pending,6052
+CUST-1001,Maya Katz,user51@example.com,30.0,323.89,2026-07-22,2026-07-26,Cancelled,3738
+CUST-1052,Maya Katz,user52@example.com,49.0,182.73,2026-07-23,2026-07-27,Completed,6732
+CUST-1053,Yossi Ben,user53@example.com,24.0,187.62,2026-07-24,2026-07-28,Completed,6387
+CUST-1054,Itai M,user54@example.com,68.0,368.46,2026-07-25,2026-07-29,Completed,9002
+CUST-1055,Dan Cohen,invalid_email_no_at.com,39.0,450.61,2026-07-26,2026-07-30,Pending,6536
+CUST-1056,Maya Katz,bad@email,45.0,445.8,2026-07-27,2026-07-31,Pending,4913
+CUST-1057,Noa Levi,just_text,19.0,394.34,2026-07-28,2026-08-01,Cancelled,2066
+CUST-1058,Maya Katz,user58@example.com,59.0,328.18,2026-07-29,2026-08-02,Cancelled,8723
+CUST-1059,Noa Levi,user59@example.com,62.0,60.39,2026-07-30,2026-08-03,Cancelled,5380
+CUST-1060,Noa Levi,user60@example.com,-25.0,97.58,2026-07-31,2026-08-04,Pending,5107
+CUST-1061,Maya Katz,user61@example.com,45.0,-150.5,2026-08-01,2026-08-05,Pending,6726
+CUST-1062,Yossi Ben,user62@example.com,45.0,0.0,2026-08-02,2026-08-06,Cancelled,4373
+CUST-1063,Noa Levi,user63@example.com,61.0,0.0,2026-08-03,2026-08-07,Cancelled,9945
+CUST-1064,Noa Levi,user64@example.com,61.0,0.0,2026-08-04,2026-08-08,Pending,3082
+CUST-1065,Maya Katz,user65@example.com,37.0,0.0,2026-08-05,2026-08-09,Cancelled,9967
+CUST-1066,Noa Levi,user66@example.com,47.0,22.43,2026-08-06,2026-08-10,Completed,7748
+CUST-1067,Noa Levi,user67@example.com,28.0,97.19,2026-08-07,2026-08-11,Pending,1417
+CUST-1068,Maya Katz,user68@example.com,45.0,283.39,2026-08-08,2026-08-12,Cancelled,9306
+CUST-1069,Maya Katz,user69@example.com,42.0,352.11,2026-08-09,2026-08-13,Pending,9808
+CUST-1070,Dan Cohen,user70@example.com,56.0,150000.0,2026-08-10,2026-08-14,Completed,4974
+CUST-1071,Yossi Ben,user71@example.com,50.0,250000.0,2026-08-11,2026-08-15,Pending,4267
+CUST-1072,Yossi Ben,user72@example.com,195.0,361.85,2026-08-12,2026-08-16,Pending,1825
+CUST-1073,Noa Levi,user73@example.com,44.0,133.88,2026-08-13,2026-08-17,Pending,8668
+CUST-1074,Yossi Ben,user74@example.com,69.0,176.19,2026-08-14,2026-08-18,Pending,6745
+CUST-1075,Noa Levi,user75@example.com,30.0,378.32,2026-08-15,2026-08-19,Completed,1412
+CUST-1076,Dan Cohen,user76@example.com,58.0,331.82,2026-08-16,2026-08-20,Pending,8543
+CUST-1077,Maya Katz,user77@example.com,20.0,427.63,2026-08-17,2026-08-21,Pending,8587
+CUST-1078,Maya Katz,user78@example.com,56.0,335.65,2026-08-18,2026-08-22,Cancelled,1728
+CUST-1079,Maya Katz,user79@example.com,23.0,292.79,2026-08-19,2026-08-23,Pending,8164
+CUST-1080,Yossi Ben,user80@example.com,25.0,64.96,2026-08-20,2026-08-10,Cancelled,9867
+CUST-1081,Dan Cohen,user81@example.com,44.0,196.5,2026-09-15,2026-09-01,Completed,6988
+CUST-1082,Yossi Ben,user82@example.com,26.0,147.3,2026-08-22,2026-08-26,Completed,3504
+CUST-1083,Yossi Ben,user83@example.com,54.0,137.12,2026-08-23,2026-08-27,Completed,3967
+CUST-1084,Dan Cohen,user84@example.com,50.0,487.05,2026-08-24,2026-08-28,Completed,3786
+CUST-1085,Dan Cohen,user85@example.com,68.0,208.69,2026-08-25,2026-08-29,Cancelled,2122
+CUST-1086,Dan Cohen,user86@example.com,59.0,448.18,2026-08-26,2026-08-30,Pending,5079
+CUST-1087,Dan Cohen,user87@example.com,61.0,322.95,2026-08-27,2026-08-31,Completed,2571
+CUST-1088,Maya Katz,user88@example.com,41.0,401.51,2026-08-28,2026-09-01,Pending,6073
+CUST-1089,Itai M,user89@example.com,32.0,261.27,2026-08-29,2026-09-02,Cancelled,6104
+CUST-1090,Itai M,user90@example.com,49.0,296.91,2026-08-30,2026-09-03,Cancelled,3143
+CUST-1091,Dan Cohen,user91@example.com,49.0,256.41,2026-08-31,2026-09-04,Cancelled,7806
+CUST-1092,Itai M,user92@example.com,41.0,113.72,2026-09-01,2026-09-05,Completed,8357
+CUST-1093,Itai M,user93@example.com,58.0,366.78,2026-09-02,2026-09-06,Pending,4440
+CUST-1094,Dan Cohen,user94@example.com,69.0,154.77,2026-09-03,2026-09-07,Pending,4766
+CUST-1095,Itai M,user95@example.com,66.0,31.67,2026-09-04,2026-09-08,Pending,6644
+CUST-1096,Yossi Ben,user96@example.com,66.0,329.83,2026-09-05,2026-09-09,Cancelled,3914
+CUST-1097,Noa Levi,user97@example.com,69.0,105.01,2026-09-06,2026-09-10,Completed,5968
+CUST-1098,Noa Levi,user98@example.com,29.0,471.42,2026-09-07,2026-09-11,Cancelled,6917
+CUST-1099,Dan Cohen,user99@example.com,56.0,477.89,2026-09-08,2026-09-12,Cancelled,9787
+CUST-1000,Maya Katz,user0@example.com,45.0,258.68,2026-06-01,2026-06-05,Completed,6177
+CUST-1001,Yossi Ben,user1@example.com,24.0,164.42,2026-06-02,2026-06-06,Pending,9932
+CUST-1002,Itai M,user2@example.com,26.0,156.72,2026-06-03,2026-06-07,Cancelled,9308
+CUST-1003,Yossi Ben,user3@example.com,25.0,37.71,2026-06-04,2026-06-08,Completed,6949
